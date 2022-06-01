@@ -1,0 +1,21 @@
+STEP 1. Git 
+
+git clone https://github.com/sagarn11/iauro.git
+cd iauro
+npm i
+
+
+STEP 2. DB
+
+create mySQL db with name 'iauro'
+execute queries from iauro/db.sql
+
+
+STEP 3. API
+
+Admin credentials : 
+	username : admin
+	password : admin
+
+Use SignIn API to get Admin Token
+Use This token in PATCH/DELETE APIs
